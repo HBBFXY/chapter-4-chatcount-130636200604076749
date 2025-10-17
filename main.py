@@ -6,13 +6,13 @@ space = 0
 other = 0
 
 for char in input_str:
-    if char.isalpha():  # 判断是否为英文字母（a-z, A-Z）
+    if char.isalpha():  
         letter += 1
-    elif char.isdigit():  # 判断是否为数字（0-9）
+    elif char.isdigit():  
         digit += 1
-    elif char.isspace():  # 判断是否为空格（包括空格、制表符等空白）
+    elif char.isspace(): 
         space += 1
-    else:  # 不属于以上三类的就是其他字符
+    else:  
         other += 1
 
 print("英文字符:", letter)
